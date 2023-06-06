@@ -1,0 +1,237 @@
+
+body {
+  font-family: 'Inter';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, a
+{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+/*Header declarations*/
+
+.header-container {
+  background-color: #111111;
+  width: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container .left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 30px;
+}
+
+.header-container .left .header-logo {
+  width: 60px;
+  height: auto;
+}
+
+.header-container .left .logo-text {
+  color: white;
+  font-weight: 100;
+}
+
+.header-container .right {
+  display: flex;
+  align-items: center;
+  margin-right: 55px;
+  
+}
+
+.header-container .links {
+  display: flex;
+  gap: 30px;
+  font-weight: 200;
+}
+
+
+/*Content Declrations*/
+
+.content-container {
+  background-color: #111111;
+  color: white;
+  display: flex;
+  width: auto;
+  height: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container .left-content .content-img {
+  width: 400px;
+  height: auto;
+  border-radius: 50px 0 0 0 ;
+  margin-right: 150px;
+}
+
+.content-container .right-content .content-description {
+  max-width: 400px;
+}
+
+.content-container .right-content {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content-container .right-content > button {
+  padding: 10px;
+  border-radius: 25px;
+  width: 150px;
+  background-color: #FFDFA5;
+  font-weight: 500;
+}
+
+.content-container .content-header {
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 1px 2px #E46F68;
+}
+
+/*Fun Fact delcrations*/
+.fun-fact-container  {
+  background-color: #F28A84;
+  width: auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.fun-fact-container .fun-fact-content {
+  display: flex;
+  gap: 50px;
+}
+
+.fun-fact-container .fun-fact-content img {
+  width: 230px;
+  height: 200px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  filter: drop-shadow(5px 2px 5px #111111);
+}
+
+.fun-fact-container .fun-fact-content .info {
+  max-width: 230px;
+  text-align: center;
+  color: #FEFEFE;
+}
+
+.fun-fact-container .fun-fact-header {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 2px #111111;
+}
+
+/*Qoute Content Declration*/
+
+.quote-container {
+  background-color: #F8F8F8;
+  width: auto;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container .quote-text {
+  color: #1F2937;
+  font-weight: 100;
+  max-width: 600px;
+  font-size: 25px;
+}
+
+.quote-container .quote-credit {
+  display: flex;
+  color: #111111;
+  font-weight: bolder;
+  margin-left: 340px;
+  font-size: 20px;
+}
+
+
+/*Join content Declration*/
+
+.join-container {
+  width: auto;
+  height: 210px;
+  background-color: #E46F68;
+  padding: 90px;
+
+}
+
+.join-container .join-content {
+  background-color: #F2B8B5;
+  width: 800px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-radius: 30px;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.join-container .join-content .right-info{
+  margin-left: 100px;
+}
+
+.join-container .join-content .left-info {
+  margin-right: 100px;
+}
+
+.join-container .join-content .join-description {
+  max-width: 400px;
+  font-size: 18px;
+}
+
+.join-container .join-content button {
+  max-width: 400px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #FFDFA5;
+}
+
+.join-container .join-content .join-header{
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 2px whitesmoke;
+}
+
+.footer {
+  background-color: #111111;
+  width: auto;
+  height: 60px;
+  display: flex;
+  color: white;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .creator, .footer-text {
+  filter: drop-shadow(5px 2px 5px #FFDFA5);
+}
+
+
+
