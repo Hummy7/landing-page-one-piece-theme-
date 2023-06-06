@@ -46,7 +46,18 @@ ul, a
   display: flex;
   align-items: center;
   margin-right: 55px;
-  
+}
+
+.right li {
+     transition: transform .4s;
+}
+
+.right li:hover {
+    transform: scale(1.3);
+}
+
+.right li a:hover {
+  color: #FFDFA5;
 }
 
 .header-container .links {
@@ -92,7 +103,18 @@ ul, a
   width: 150px;
   background-color: #FFDFA5;
   font-weight: 500;
+   transition: transform .2s;
 }
+
+.content-container button:hover, button:focus {
+    background-color: #F28A84;
+}
+
+.join-content .left-info button:hover{
+    background-color: #111111;
+    color: white;
+}
+
 
 .content-container .content-header {
   font-weight: bold;
@@ -232,6 +254,5 @@ ul, a
 .footer .creator, .footer-text {
   filter: drop-shadow(5px 2px 5px #FFDFA5);
 }
-
 
 
